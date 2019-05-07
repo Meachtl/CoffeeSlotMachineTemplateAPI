@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ConsoleTables" Version="2.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoffeeSlotMachine.Core.Logic\CoffeeSlotMachine.Core.Logic.csproj" />
+    <ProjectReference Include="..\CoffeeSlotMachine.Persistence\CoffeeSlotMachine.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
